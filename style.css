@@ -1,0 +1,97 @@
+body{
+    background-image: url(./eberhard-grossgasteiger-S-2Ukb_VqpA-unsplash.jpg);
+}
+bod>div{
+    display: flex;
+    justify-content: center;
+}
+#Box{
+    margin-left: 60px;
+}
+#Title{
+    text-align: center;
+    color: white;
+    font-family: Verdana;
+    margin-top: 50px;
+    font-weight: 5000;
+    font-size: large;
+}
+
+#Left{
+    border: solid none;
+    border-radius: 12px 0px 12px 0px;
+    width: 200px;
+    height: 280px;
+    margin-left: 280px;
+    margin-top: 110px;
+}
+#LeftTop{
+    width: 199px;
+    height: 120px;
+    background-color: white;
+    border-radius: 12px 0px 0px 0px;
+    /* display: inline; */
+}
+#LeftBottom{
+    width: 199.6px;
+    height: 160.45px;
+    background-color: lightgreen;
+    border-radius: 0px 0px 0px 12px;
+    /* display: inline; */
+}
+#Center{
+    border: solid none;
+    box-shadow: 0px 0px 5px 5px grey;
+    border-radius: 12px 12px 12px 12px;
+    width: 200px;
+    height: 320px;
+    /* margin-left: 280px;
+    margin-top: 110px; */
+    margin-top: -300px;
+    margin-left: 450px;
+    background-color: violet;
+    position: absolute;
+}
+#CenterTop{
+    width: 199.8px;
+    height: 140px;
+    border-radius: 12px 12px 0px 0px;
+    background-color: white;
+}
+#Right{
+    border: solid none;
+    border-radius: 0px 12px 12px 0px;
+    width: 185px;
+    height: 280px;
+    background-color: yellow;
+    margin-top: -280px;
+    margin-left: 650px;
+    position: absolute;
+}
+#RightTop{
+    width: 185px;
+    height: 120px;
+    border: solid none;
+    border-radius: 0px 12px 0px 0px;
+    background-color: white;
+}
+#LeftTop1{
+    color: lightgreen;
+    font-weight: bold;
+    margin-left: 67px;
+    font-size: 32px;
+}
+#LeftTop2{
+    color: black;
+    margin-left: 60px;
+}
+#BasicHead{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+#Basic{
+    font-size: small;
+    color: white;
+}

@@ -1,10 +1,6 @@
 body{
     background-image: url(./eberhard-grossgasteiger-S-2Ukb_VqpA-unsplash.jpg);
 }
-bod>div{
-    display: flex;
-    justify-content: center;
-}
 #Box{
     margin-left: 60px;
 }
@@ -37,16 +33,15 @@ bod>div{
     height: 160.45px;
     background-color: lightgreen;
     border-radius: 0px 0px 0px 12px;
-    /* display: inline; */
+    padding-left: 10px;
+    font-size: small;
 }
 #Center{
     border: solid none;
-    box-shadow: 0px 0px 5px 5px grey;
+    box-shadow: 0px 0px 4px 3px grey;
     border-radius: 12px 12px 12px 12px;
     width: 200px;
     height: 320px;
-    /* margin-left: 280px;
-    margin-top: 110px; */
     margin-top: -300px;
     margin-left: 450px;
     background-color: violet;
@@ -57,6 +52,9 @@ bod>div{
     height: 140px;
     border-radius: 12px 12px 0px 0px;
     background-color: white;
+    text-align: center;
+    color: violet;
+    
 }
 #Right{
     border: solid none;
@@ -89,9 +87,51 @@ bod>div{
     color: white;
     text-align: center;
     font-weight: bold;
-    
+    padding: 10px;
 }
 #Basic{
     font-size: small;
     color: white;
+}
+#Choose1{
+    text-align: center;
+    border: solid none;
+    border-radius: 25px;
+    padding: 4px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 5px;
+    background-color: white;
+    color: lightgreen;
+    box-shadow: 0px 2px 0px 0px grey;
+}
+#Righttop1{
+    color: yellow;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 65px;
+}
+#Righttop2{
+    color: black;
+    padding: 57px;
+}
+#RightBottom{
+    padding-left: 10px;
+}
+#CenterBottom{
+    margin-left: 15px;
+    div{
+        margin-top: 15px;
+    }
+}
+#CenterTop1{
+    color: violet;
+    font-weight: bold;
+    font-size: 34px;
+}
+#CenterTop2{
+    color: black;
+}
+.Choose2{
+    width: 125px;
 }
